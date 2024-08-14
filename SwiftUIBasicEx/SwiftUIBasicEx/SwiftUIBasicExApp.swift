@@ -25,7 +25,7 @@ struct SwiftUIBasicExApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(tabViews: [.home, .study, .more])
         }
         .modelContainer(sharedModelContainer)
     }

@@ -15,6 +15,23 @@
 		39579D912C6C472E00C2DF81 /* SwiftUIBasicExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579D902C6C472E00C2DF81 /* SwiftUIBasicExTests.swift */; };
 		39579D9B2C6C472F00C2DF81 /* SwiftUIBasicExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579D9A2C6C472F00C2DF81 /* SwiftUIBasicExUITests.swift */; };
 		39579D9D2C6C472F00C2DF81 /* SwiftUIBasicExUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579D9C2C6C472F00C2DF81 /* SwiftUIBasicExUITestsLaunchTests.swift */; };
+		39579DAF2C6C475F00C2DF81 /* ObservableObjectAndStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579DA92C6C475F00C2DF81 /* ObservableObjectAndStateObject.swift */; };
+		39579DB02C6C475F00C2DF81 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579DAB2C6C475F00C2DF81 /* HomeView.swift */; };
+		39579DB12C6C475F00C2DF81 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579DAC2C6C475F00C2DF81 /* MoreView.swift */; };
+		39579DB22C6C475F00C2DF81 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579DAD2C6C475F00C2DF81 /* StudyView.swift */; };
+		39579DD12C6C486E00C2DF81 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DC72C6C486E00C2DF81 /* Pretendard-Black.otf */; };
+		39579DD22C6C486E00C2DF81 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DC82C6C486E00C2DF81 /* Pretendard-Bold.otf */; };
+		39579DD32C6C486E00C2DF81 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DC92C6C486E00C2DF81 /* Pretendard-ExtraBold.otf */; };
+		39579DD42C6C486E00C2DF81 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DCA2C6C486E00C2DF81 /* Pretendard-ExtraLight.otf */; };
+		39579DD52C6C486E00C2DF81 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DCB2C6C486E00C2DF81 /* Pretendard-Light.otf */; };
+		39579DD62C6C486E00C2DF81 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DCC2C6C486E00C2DF81 /* Pretendard-Medium.otf */; };
+		39579DD72C6C486E00C2DF81 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DCD2C6C486E00C2DF81 /* Pretendard-Regular.otf */; };
+		39579DD82C6C486E00C2DF81 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DCE2C6C486E00C2DF81 /* Pretendard-SemiBold.otf */; };
+		39579DD92C6C486E00C2DF81 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DCF2C6C486E00C2DF81 /* Pretendard-Thin.otf */; };
+		39579DDD2C6C493500C2DF81 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579DDC2C6C493500C2DF81 /* Font+Ext.swift */; };
+		39579DE02C6C4E2400C2DF81 /* MainTitleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579DDF2C6C4E2400C2DF81 /* MainTitleBarView.swift */; };
+		39EC2B9E2C6C7B3300EC43CB /* TabViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC2B9D2C6C7B3300EC43CB /* TabViewType.swift */; };
+		39EC2BA02C6C896500EC43CB /* PresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC2B9F2C6C896500EC43CB /* PresentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +63,24 @@
 		39579D962C6C472F00C2DF81 /* SwiftUIBasicExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBasicExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39579D9A2C6C472F00C2DF81 /* SwiftUIBasicExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicExUITests.swift; sourceTree = "<group>"; };
 		39579D9C2C6C472F00C2DF81 /* SwiftUIBasicExUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicExUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39579DA92C6C475F00C2DF81 /* ObservableObjectAndStateObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableObjectAndStateObject.swift; sourceTree = "<group>"; };
+		39579DAB2C6C475F00C2DF81 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		39579DAC2C6C475F00C2DF81 /* MoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		39579DAD2C6C475F00C2DF81 /* StudyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		39579DC72C6C486E00C2DF81 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		39579DC82C6C486E00C2DF81 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		39579DC92C6C486E00C2DF81 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		39579DCA2C6C486E00C2DF81 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		39579DCB2C6C486E00C2DF81 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		39579DCC2C6C486E00C2DF81 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		39579DCD2C6C486E00C2DF81 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		39579DCE2C6C486E00C2DF81 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		39579DCF2C6C486E00C2DF81 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		39579DDA2C6C48BD00C2DF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		39579DDC2C6C493500C2DF81 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
+		39579DDF2C6C4E2400C2DF81 /* MainTitleBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitleBarView.swift; sourceTree = "<group>"; };
+		39EC2B9D2C6C7B3300EC43CB /* TabViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewType.swift; sourceTree = "<group>"; };
+		39EC2B9F2C6C896500EC43CB /* PresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +131,16 @@
 		39579D7C2C6C472D00C2DF81 /* SwiftUIBasicEx */ = {
 			isa = PBXGroup;
 			children = (
+				39579DDB2C6C492E00C2DF81 /* Extension */,
+				39579DDA2C6C48BD00C2DF81 /* Info.plist */,
 				39579D7D2C6C472D00C2DF81 /* SwiftUIBasicExApp.swift */,
 				39579D7F2C6C472D00C2DF81 /* ContentView.swift */,
+				39579DAA2C6C475F00C2DF81 /* Study */,
+				39579DAE2C6C475F00C2DF81 /* View */,
 				39579D812C6C472D00C2DF81 /* Item.swift */,
-				39579D832C6C472E00C2DF81 /* Assets.xcassets */,
+				39EC2B9C2C6C7B2500EC43CB /* Enum */,
+				39579DDE2C6C4E0C00C2DF81 /* Custom */,
+				39579DB32C6C484800C2DF81 /* Resources */,
 				39579D852C6C472E00C2DF81 /* Preview Content */,
 			);
 			path = SwiftUIBasicEx;
@@ -128,6 +169,75 @@
 				39579D9C2C6C472F00C2DF81 /* SwiftUIBasicExUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIBasicExUITests;
+			sourceTree = "<group>";
+		};
+		39579DAA2C6C475F00C2DF81 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				39579DA92C6C475F00C2DF81 /* ObservableObjectAndStateObject.swift */,
+				39EC2B9F2C6C896500EC43CB /* PresentView.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		39579DAE2C6C475F00C2DF81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39579DAB2C6C475F00C2DF81 /* HomeView.swift */,
+				39579DAD2C6C475F00C2DF81 /* StudyView.swift */,
+				39579DAC2C6C475F00C2DF81 /* MoreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39579DB32C6C484800C2DF81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39579DD02C6C486E00C2DF81 /* Fonts */,
+				39579D832C6C472E00C2DF81 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		39579DD02C6C486E00C2DF81 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				39579DC72C6C486E00C2DF81 /* Pretendard-Black.otf */,
+				39579DC82C6C486E00C2DF81 /* Pretendard-Bold.otf */,
+				39579DC92C6C486E00C2DF81 /* Pretendard-ExtraBold.otf */,
+				39579DCA2C6C486E00C2DF81 /* Pretendard-ExtraLight.otf */,
+				39579DCB2C6C486E00C2DF81 /* Pretendard-Light.otf */,
+				39579DCC2C6C486E00C2DF81 /* Pretendard-Medium.otf */,
+				39579DCD2C6C486E00C2DF81 /* Pretendard-Regular.otf */,
+				39579DCE2C6C486E00C2DF81 /* Pretendard-SemiBold.otf */,
+				39579DCF2C6C486E00C2DF81 /* Pretendard-Thin.otf */,
+			);
+			name = Fonts;
+			path = ../../../../HashTag/HashTag/HashTag/Resources/Fonts;
+			sourceTree = "<group>";
+		};
+		39579DDB2C6C492E00C2DF81 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				39579DDC2C6C493500C2DF81 /* Font+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		39579DDE2C6C4E0C00C2DF81 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				39579DDF2C6C4E2400C2DF81 /* MainTitleBarView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		39EC2B9C2C6C7B2500EC43CB /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				39EC2B9D2C6C7B3300EC43CB /* TabViewType.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +344,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39579DD42C6C486E00C2DF81 /* Pretendard-ExtraLight.otf in Resources */,
 				39579D872C6C472E00C2DF81 /* Preview Assets.xcassets in Resources */,
+				39579DD22C6C486E00C2DF81 /* Pretendard-Bold.otf in Resources */,
+				39579DD62C6C486E00C2DF81 /* Pretendard-Medium.otf in Resources */,
+				39579DD72C6C486E00C2DF81 /* Pretendard-Regular.otf in Resources */,
+				39579DD32C6C486E00C2DF81 /* Pretendard-ExtraBold.otf in Resources */,
+				39579DD52C6C486E00C2DF81 /* Pretendard-Light.otf in Resources */,
+				39579DD82C6C486E00C2DF81 /* Pretendard-SemiBold.otf in Resources */,
+				39579DD12C6C486E00C2DF81 /* Pretendard-Black.otf in Resources */,
+				39579DD92C6C486E00C2DF81 /* Pretendard-Thin.otf in Resources */,
 				39579D842C6C472E00C2DF81 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +379,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39579DB22C6C475F00C2DF81 /* StudyView.swift in Sources */,
 				39579D802C6C472D00C2DF81 /* ContentView.swift in Sources */,
+				39579DE02C6C4E2400C2DF81 /* MainTitleBarView.swift in Sources */,
+				39579DB12C6C475F00C2DF81 /* MoreView.swift in Sources */,
 				39579D822C6C472D00C2DF81 /* Item.swift in Sources */,
+				39579DDD2C6C493500C2DF81 /* Font+Ext.swift in Sources */,
+				39579DAF2C6C475F00C2DF81 /* ObservableObjectAndStateObject.swift in Sources */,
+				39EC2BA02C6C896500EC43CB /* PresentView.swift in Sources */,
+				39EC2B9E2C6C7B3300EC43CB /* TabViewType.swift in Sources */,
+				39579DB02C6C475F00C2DF81 /* HomeView.swift in Sources */,
 				39579D7E2C6C472D00C2DF81 /* SwiftUIBasicExApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +556,7 @@
 				DEVELOPMENT_TEAM = 59NQ3YR32K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIBasicEx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +586,7 @@
 				DEVELOPMENT_TEAM = 59NQ3YR32K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIBasicEx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
