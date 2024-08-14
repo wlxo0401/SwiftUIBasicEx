@@ -1,15 +1,13 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# Xcode 프로젝트에서 버전 관리에 포함되지 않아야 할 파일 및 디렉토리
 
-## User settings
+## 사용자 설정 파일
 xcuserdata/
 
-## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+## Xcode 8 이하 호환성 파일 (Xcode 9 이상에서 불필요)
 *.xcscmblueprint
 *.xccheckout
 
-## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+## Xcode 3 이하 호환성 파일 (Xcode 4 이상에서 불필요)
 build/
 DerivedData/
 *.moved-aside
@@ -22,75 +20,40 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
-## Obj-C/Swift specific
+## Objective-C/Swift 특정 파일
 *.hmap
 
-## App packaging
+## 앱 패키징 파일
 *.ipa
 *.dSYM.zip
 *.dSYM
 
-## Playgrounds
+## 플레이그라운드 파일
 timeline.xctimeline
 playground.xcworkspace
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
-
+# Swift 패키지 매니저
 .build/
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
+# CocoaPods (필요에 따라 Pods/ 추가 가능)
 # Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
+# Carthage 빌드 파일
 Carthage/Build/
 
-# Accio dependency management
+# Accio 의존성 관리
 Dependencies/
 .accio/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
-
+# fastlane 파일
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
-
+# 코드 인젝션 프로젝트
 iOSInjectionProject/
 
-# Ignore Mac DS_Store files
+# macOS 관련 파일
 .DS_Store
 **/.DS_Store
-
-
