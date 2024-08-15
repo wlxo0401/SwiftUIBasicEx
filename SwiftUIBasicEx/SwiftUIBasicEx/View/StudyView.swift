@@ -9,42 +9,79 @@ import SwiftUI
 
 struct StudyView: View {
     let title: String
+
+    let views: [AnyView] = [AnyView(PresentView()), AnyView(ObservableObjectAndStateObject())]
     
     var body: some View {
-        VStack(spacing: 0) {
-            MainTitleBarView(title: self.title)
-                .frame(height: 72)
-                .frame(maxWidth: .infinity)
-                .background(.red)
-            NavigationStack {
-                List {
-                    NavigationLink("Red", destination: Text("Red"))
-                        .navigationBarBackButtonHidden()
-                    NavigationLink("Green", destination: Text("Green"))
-                    NavigationLink("Blue", destination: Text("Blue"))
+        
+        NavigationStack {
+            VStack(spacing: 0) {
+                
+                MainTitleBarView(title: self.title)
+                    .frame(height: 72)
+                    .frame(maxWidth: .infinity)
+                    .background(.red)
+                ScrollView {
+                    Button {
+                        // NavigationLink 를 작동시키기 위한 @State 프로퍼티를 true 로 만들기
+                        print("Hi")
+                    } label: {
+                        // List Row 에 해당하는 View
+                        HStack {
+                            Text("1. PresentView")
+                                .font(.pretendard(.bold, size: 17))
+                            Image(systemName: "rectangle.portrait.and.arrow.right")
+                        }
+                        .frame(height: 64)
+                        .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(CustomButtonStyle())
                 }
-                .navigationDestination(for: Color.self, destination: { color in
-                    TestView()
-                })
-                .navigationTitle("Colors")
+                .background {
+                    NavigationLink(value: 10, label: {
+                        EmptyView()
+                    })
+                    .hidden()
+                }
+                
+                
+                
+                
+                
+//                ScrollView {
+//                    VStack {
+//                        NavigationLink(destination: PresentView()) {
+//                            
+//                        }
+//                        .buttonStyle(PlainButtonStyle())
+//                        .listRowBackground(Color(UIColor.secondarySystemGroupedBackground))
+//                        NavigationLink("ObservableObjectAndStateObject",
+//                                       destination: ObservableObjectAndStateObject())
+//                        .buttonStyle(PlainButtonStyle())
+//                        .listRowBackground(Color(UIColor.secondarySystemGroupedBackground))
+//                    }
+//                }
+//                
+//                .background(.gray)
             }
-            .navigationBarBackButtonHidden()
         }
     }
 }
-
-struct TestView: View {
-    var body: some View {
-        Text("안녕하세요.")
+struct NoEffectButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .opacity(configuration.isPressed ? 1.0 : 1.0)
     }
 }
 
-
-struct ColorDetail: View {
-
-    var color: Color
-    
-    var body: some View {
-            Text("\(self.color.description)")
+struct CustomButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding()
+            .background(configuration.isPressed ? Color.blue : Color.green)
+            .foregroundColor(configuration.isPressed ? Color.black : Color.black)
+            .cornerRadius(10)
+            .scaleEffect(configuration.isPressed ? 0.9 : 1.0) // 눌렀을 때 약간 작아지는 효과
+            .animation(.easeInOut, value: configuration.isPressed)
     }
 }

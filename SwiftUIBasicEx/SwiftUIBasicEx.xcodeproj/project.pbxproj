@@ -30,6 +30,7 @@
 		39579DD92C6C486E00C2DF81 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39579DCF2C6C486E00C2DF81 /* Pretendard-Thin.otf */; };
 		39579DDD2C6C493500C2DF81 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579DDC2C6C493500C2DF81 /* Font+Ext.swift */; };
 		39579DE02C6C4E2400C2DF81 /* MainTitleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39579DDF2C6C4E2400C2DF81 /* MainTitleBarView.swift */; };
+		398FE6CE2C6CEF1300612677 /* SubTitleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FE6CD2C6CEF1300612677 /* SubTitleBarView.swift */; };
 		39EC2B9E2C6C7B3300EC43CB /* TabViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC2B9D2C6C7B3300EC43CB /* TabViewType.swift */; };
 		39EC2BA02C6C896500EC43CB /* PresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC2B9F2C6C896500EC43CB /* PresentView.swift */; };
 /* End PBXBuildFile section */
@@ -79,6 +80,7 @@
 		39579DDA2C6C48BD00C2DF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		39579DDC2C6C493500C2DF81 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
 		39579DDF2C6C4E2400C2DF81 /* MainTitleBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitleBarView.swift; sourceTree = "<group>"; };
+		398FE6CD2C6CEF1300612677 /* SubTitleBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTitleBarView.swift; sourceTree = "<group>"; };
 		39EC2B9D2C6C7B3300EC43CB /* TabViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewType.swift; sourceTree = "<group>"; };
 		39EC2B9F2C6C896500EC43CB /* PresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				39579DDF2C6C4E2400C2DF81 /* MainTitleBarView.swift */,
+				398FE6CD2C6CEF1300612677 /* SubTitleBarView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				39579D802C6C472D00C2DF81 /* ContentView.swift in Sources */,
 				39579DE02C6C4E2400C2DF81 /* MainTitleBarView.swift in Sources */,
 				39579DB12C6C475F00C2DF81 /* MoreView.swift in Sources */,
+				398FE6CE2C6CEF1300612677 /* SubTitleBarView.swift in Sources */,
 				39579D822C6C472D00C2DF81 /* Item.swift in Sources */,
 				39579DDD2C6C493500C2DF81 /* Font+Ext.swift in Sources */,
 				39579DAF2C6C475F00C2DF81 /* ObservableObjectAndStateObject.swift in Sources */,
