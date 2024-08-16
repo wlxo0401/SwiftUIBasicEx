@@ -13,8 +13,8 @@ struct PresentView: View, Identifiable {
     var body: some View {
         VStack(spacing: 0) {
             SubTitleBarView(title: "Present")
-                .frame(height: 72)
                 .frame(maxWidth: .infinity)
+                .padding(0)
                 .background(.red)
             Text("안녕 나는 Present Child View라고해!")
                 .onAppear() {
@@ -22,9 +22,9 @@ struct PresentView: View, Identifiable {
                 }
                 .background(.blue)
             Spacer()
-                .background(.gray)
+                
         }
-        .padding(0)
+        .background(.gray)
         .navigationBarBackButtonHidden()
     }
 }

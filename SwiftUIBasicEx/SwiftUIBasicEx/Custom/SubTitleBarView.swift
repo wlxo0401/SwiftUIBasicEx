@@ -21,22 +21,23 @@ struct SubTitleBarView: View {
                 }) {
                     Image(systemName: "chevron.left")
                         .padding() // 버튼에 내용이 있으므로 크기 지정 불필요
-                }
+                }.frame(height: 72)
                 Spacer()
 
                 // 이 오른쪽 버튼은 빈 버튼이므로, 비어 있는 View 대신 실제로 필요한 경우 사용할 것
                 Button(action: {}) {
                     EmptyView() // 오른쪽에 빈 뷰 추가
-                }
+                }.frame(height: 72)
                     .frame(width: 44) // 왼쪽 버튼과 대칭적 배치를 위해 너비 지정
             }
-            .frame(height: 44)
+            .frame(height: 72)
              
             // ZStack 안에서 Text를 중앙에 고정
             Text(self.title)
                  .font(.headline)
+                 .frame(height: 72)
                  .frame(maxWidth: .infinity, alignment: .center)
         }
-        .frame(height: 44)
+        .frame(height: 72)
     }
 }
