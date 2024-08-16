@@ -22,10 +22,8 @@ struct StudyView: View {
                     .frame(maxWidth: .infinity)
                     .background(.red)
                 ScrollView {
-                    Button {
-                        // NavigationLink 를 작동시키기 위한 @State 프로퍼티를 true 로 만들기
-                        print("Hi")
-                    } label: {
+                    
+                    NavigationLink(destination: PresentView()) {
                         // List Row 에 해당하는 View
                         HStack {
                             Text("1. PresentView")
@@ -37,32 +35,6 @@ struct StudyView: View {
                     }
                     .buttonStyle(CustomButtonStyle())
                 }
-                .background {
-                    NavigationLink(value: 10, label: {
-                        EmptyView()
-                    })
-                    .hidden()
-                }
-                
-                
-                
-                
-                
-//                ScrollView {
-//                    VStack {
-//                        NavigationLink(destination: PresentView()) {
-//                            
-//                        }
-//                        .buttonStyle(PlainButtonStyle())
-//                        .listRowBackground(Color(UIColor.secondarySystemGroupedBackground))
-//                        NavigationLink("ObservableObjectAndStateObject",
-//                                       destination: ObservableObjectAndStateObject())
-//                        .buttonStyle(PlainButtonStyle())
-//                        .listRowBackground(Color(UIColor.secondarySystemGroupedBackground))
-//                    }
-//                }
-//                
-//                .background(.gray)
             }
         }
     }
