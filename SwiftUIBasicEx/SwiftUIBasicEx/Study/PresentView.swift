@@ -32,9 +32,10 @@ struct PresentView: View, Identifiable {
 fileprivate struct PresentChildView: View {
     var body: some View {
         SubTitleBarView(title: "Present")
-            .frame(height: 72)
-            .frame(maxWidth: .infinity)
             .background(.red)
+            .frame(maxWidth: .infinity)
+            
+            
         
         Text("안녕 나는 Present Child View라고해!")
     }
